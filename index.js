@@ -5,7 +5,7 @@ function breakOut(array, changeValue, stopValue) {
     }
     array[i] === changeValue
   }
-  return array 
+  return array
 }
 
 function keepGoing(array, changeValue, skipValue){
@@ -25,5 +25,5 @@ function findBy(array, findFn){
       return array[i]
     }
   }
-  return null 
+  return null
 }
